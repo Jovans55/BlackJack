@@ -129,11 +129,14 @@ stand.addEventListener("click", function(){
     } else if(newPlayerNum > newDealerNum){
         title.textContent = "YOU WON!"
         console.log("YOU WON!")
-    } else if(newDealerNum > newPlayerNum){
+    } else if(newDealerNum > 21){
+        title.textContent = "YOU WON!"
+        console.log('Loser')
+    } else if (newDealerNum > newPlayerNum){
         title.textContent = "YOU LOST!"
         console.log('Loser')
     } else if(newDealerNum === newPlayerNum){
         title.textContent = "TIE!"
         console.log("A Tie??")
-    }
+    } 
 })
