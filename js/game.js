@@ -114,6 +114,8 @@ hit.addEventListener("click", function(){
 
 stand.addEventListener("click", function(){
 
+    again.style.display = "inline";
+
     dealerNum.textContent = newDealerNum;
     dealerNum.style.display = 'block';
     dCard1.setAttribute("id", "dealersCards1");
@@ -139,4 +141,8 @@ stand.addEventListener("click", function(){
         title.textContent = "TIE!"
         console.log("A Tie??")
     } 
+})
+
+again.addEventListener("click", function(){
+    window.location.reload();
 })

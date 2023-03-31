@@ -35,6 +35,10 @@ h1:hover{
     display: none;
 }
 
+#again{
+    display: none;
+}
+
 #dealer{
     display: flex;
     justify-content: center;

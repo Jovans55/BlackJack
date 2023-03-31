@@ -7,6 +7,7 @@ const playerNum = document.querySelector("#playerNum");
 const dealerNum = document.querySelector("#dealerNum");
 const game = document.querySelector("#game");
 const title = document.querySelector("#title");
+const again = document.querySelector("#again")
 
 const deck = [
     //hearts
