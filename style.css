@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    height: 100%;
+    background-color: green;
+    font-size: 2rem;
+    text-align: center;
+}
+
+button{
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+    font-size: 2rem;
+    margin-top: 5%;
+}
+
+button:hover{
+    transition: 1s;
+    font-size: 2.5rem;
+}
+
+h1:hover{
+    transition: 1s;
+    padding: 40px;
+}
+
+#hit{
+    background-color: rgb(3, 214, 3);
+    display: none;
+}
+
+#stand{
+    background-color: brown;
+    display: none;
+}
+
+#dealer{
+    display: flex;
+    justify-content: center;
+}
+
+#player{
+    display: flex;
+    justify-content: center;
+}
+
+#dealersCards{
+    color:navy;
+    background-color: navy;
+}
+
+#dealersCards1{
+    color:none;
+    background-color: none;
+}
+
+#dealerNum{
+    padding:33px 0px;
+    display: none;
+}
+ 
+#playerNum{
+    padding:33px 0px;
+    display: none;
+}
+
+.red{
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px black;
+    color: red;
+    padding: 33px 19px;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.black{
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px black;
+    color: purple;
+    padding: 33px 19px;
+    background-color: white;
+    margin-right: 20px;
+}
