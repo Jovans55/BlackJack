@@ -115,6 +115,8 @@ hit.addEventListener("click", function(){
 stand.addEventListener("click", function(){
 
     again.style.display = "inline";
+    stand.style.display = "none";
+    hit.style.display = "none";
 
     dealerNum.textContent = newDealerNum;
     dealerNum.style.display = 'block';
